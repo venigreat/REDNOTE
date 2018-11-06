@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		10A64B192192026E003228E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B182192026E003228E5 /* AppDelegate.swift */; };
-		10A64B1B2192026E003228E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B1A2192026E003228E5 /* ViewController.swift */; };
+		10A64B1B2192026E003228E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B1A2192026E003228E5 /* MainViewController.swift */; };
 		10A64B1E2192026E003228E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A64B1C2192026E003228E5 /* Main.storyboard */; };
 		10A64B212192026E003228E5 /* RED_NOTE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B1F2192026E003228E5 /* RED_NOTE.xcdatamodeld */; };
 		10A64B2321920270003228E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10A64B2221920270003228E5 /* Assets.xcassets */; };
 		10A64B2621920270003228E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10A64B2421920270003228E5 /* LaunchScreen.storyboard */; };
 		10A64B3121920270003228E5 /* RED_NOTETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B3021920270003228E5 /* RED_NOTETests.swift */; };
 		10A64B3C21920270003228E5 /* RED_NOTEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B3B21920270003228E5 /* RED_NOTEUITests.swift */; };
+		10A64B4A21920508003228E5 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B4921920508003228E5 /* NewNoteViewController.swift */; };
+		10A64B4C219208F5003228E5 /* OpenNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B4B219208F5003228E5 /* OpenNoteViewController.swift */; };
+		10A64B4E21921BC8003228E5 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B4D21921BC8003228E5 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		10A64B152192026E003228E5 /* RED NOTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RED NOTE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A64B182192026E003228E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10A64B1A2192026E003228E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10A64B1A2192026E003228E5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		10A64B1D2192026E003228E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10A64B202192026E003228E5 /* RED_NOTE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RED_NOTE.xcdatamodel; sourceTree = "<group>"; };
 		10A64B2221920270003228E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		10A64B3721920270003228E5 /* RED NOTEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RED NOTEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A64B3B21920270003228E5 /* RED_NOTEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RED_NOTEUITests.swift; sourceTree = "<group>"; };
 		10A64B3D21920270003228E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10A64B4921920508003228E5 /* NewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		10A64B4B219208F5003228E5 /* OpenNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenNoteViewController.swift; sourceTree = "<group>"; };
+		10A64B4D21921BC8003228E5 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				10A64B182192026E003228E5 /* AppDelegate.swift */,
-				10A64B1A2192026E003228E5 /* ViewController.swift */,
+				10A64B1A2192026E003228E5 /* MainViewController.swift */,
 				10A64B1C2192026E003228E5 /* Main.storyboard */,
+				10A64B4B219208F5003228E5 /* OpenNoteViewController.swift */,
+				10A64B4921920508003228E5 /* NewNoteViewController.swift */,
 				10A64B2221920270003228E5 /* Assets.xcassets */,
 				10A64B2421920270003228E5 /* LaunchScreen.storyboard */,
 				10A64B2721920270003228E5 /* Info.plist */,
 				10A64B1F2192026E003228E5 /* RED_NOTE.xcdatamodeld */,
+				10A64B4D21921BC8003228E5 /* ImageViewController.swift */,
 			);
 			path = "RED NOTE";
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10A64B1B2192026E003228E5 /* ViewController.swift in Sources */,
+				10A64B1B2192026E003228E5 /* MainViewController.swift in Sources */,
+				10A64B4C219208F5003228E5 /* OpenNoteViewController.swift in Sources */,
+				10A64B4A21920508003228E5 /* NewNoteViewController.swift in Sources */,
 				10A64B192192026E003228E5 /* AppDelegate.swift in Sources */,
+				10A64B4E21921BC8003228E5 /* ImageViewController.swift in Sources */,
 				10A64B212192026E003228E5 /* RED_NOTE.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
