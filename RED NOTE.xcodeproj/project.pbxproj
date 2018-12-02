@@ -18,6 +18,13 @@
 		10A64B4A21920508003228E5 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B4921920508003228E5 /* NewNoteViewController.swift */; };
 		10A64B4C219208F5003228E5 /* OpenNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B4B219208F5003228E5 /* OpenNoteViewController.swift */; };
 		10A64B4E21921BC8003228E5 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A64B4D21921BC8003228E5 /* ImageViewController.swift */; };
+		F575F60221AACC8300131656 /* RealmDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F575F60121AACC8300131656 /* RealmDataSource.swift */; };
+		F5D6F064219DFFE200F0F6CC /* NoteRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6F063219DFFE200F0F6CC /* NoteRealm.swift */; };
+		F5D6F066219E06D900F0F6CC /* RealmDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6F065219E06D900F0F6CC /* RealmDataManager.swift */; };
+		F5DE1CDE21B41E13003C8940 /* NoteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DE1CDD21B41E13003C8940 /* NoteCell.xib */; };
+		F5DE1CE221B41E93003C8940 /* UICell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DE1CE121B41E93003C8940 /* UICell.swift */; };
+		F5DE1CE421B48150003C8940 /* Galery.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DE1CE321B48150003C8940 /* Galery.xcassets */; };
+		FB1978A6AE2ED475474079B1 /* Pods_RED_NOTE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9965159434A24A9B6680D57D /* Pods_RED_NOTE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,15 @@
 		10A64B4921920508003228E5 /* NewNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
 		10A64B4B219208F5003228E5 /* OpenNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenNoteViewController.swift; sourceTree = "<group>"; };
 		10A64B4D21921BC8003228E5 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		2E13BE5E51A166503AB36CE3 /* Pods-RED NOTE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RED NOTE.release.xcconfig"; path = "Pods/Target Support Files/Pods-RED NOTE/Pods-RED NOTE.release.xcconfig"; sourceTree = "<group>"; };
+		8AA5DAEB57288B0B30DB8A1D /* Pods-RED NOTE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RED NOTE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RED NOTE/Pods-RED NOTE.debug.xcconfig"; sourceTree = "<group>"; };
+		9965159434A24A9B6680D57D /* Pods_RED_NOTE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RED_NOTE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F575F60121AACC8300131656 /* RealmDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataSource.swift; sourceTree = "<group>"; };
+		F5D6F063219DFFE200F0F6CC /* NoteRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRealm.swift; sourceTree = "<group>"; };
+		F5D6F065219E06D900F0F6CC /* RealmDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataManager.swift; sourceTree = "<group>"; };
+		F5DE1CDD21B41E13003C8940 /* NoteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteCell.xib; sourceTree = "<group>"; };
+		F5DE1CE121B41E93003C8940 /* UICell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICell.swift; sourceTree = "<group>"; };
+		F5DE1CE321B48150003C8940 /* Galery.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Galery.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1978A6AE2ED475474079B1 /* Pods_RED_NOTE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +106,8 @@
 				10A64B2F21920270003228E5 /* RED NOTETests */,
 				10A64B3A21920270003228E5 /* RED NOTEUITests */,
 				10A64B162192026E003228E5 /* Products */,
+				F1D2FA604A69AB17DF9F16CB /* Pods */,
+				17CA4D4287906E2222FE86B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +134,12 @@
 				10A64B2721920270003228E5 /* Info.plist */,
 				10A64B1F2192026E003228E5 /* RED_NOTE.xcdatamodeld */,
 				10A64B4D21921BC8003228E5 /* ImageViewController.swift */,
+				F5D6F063219DFFE200F0F6CC /* NoteRealm.swift */,
+				F5D6F065219E06D900F0F6CC /* RealmDataManager.swift */,
+				F575F60121AACC8300131656 /* RealmDataSource.swift */,
+				F5DE1CDD21B41E13003C8940 /* NoteCell.xib */,
+				F5DE1CE121B41E93003C8940 /* UICell.swift */,
+				F5DE1CE321B48150003C8940 /* Galery.xcassets */,
 			);
 			path = "RED NOTE";
 			sourceTree = "<group>";
@@ -137,6 +162,23 @@
 			path = "RED NOTEUITests";
 			sourceTree = "<group>";
 		};
+		17CA4D4287906E2222FE86B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9965159434A24A9B6680D57D /* Pods_RED_NOTE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1D2FA604A69AB17DF9F16CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AA5DAEB57288B0B30DB8A1D /* Pods-RED NOTE.debug.xcconfig */,
+				2E13BE5E51A166503AB36CE3 /* Pods-RED NOTE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10A64B4021920270003228E5 /* Build configuration list for PBXNativeTarget "RED NOTE" */;
 			buildPhases = (
+				53D4B236F4D5E33225E7E099 /* [CP] Check Pods Manifest.lock */,
 				10A64B112192026E003228E5 /* Sources */,
 				10A64B122192026E003228E5 /* Frameworks */,
 				10A64B132192026E003228E5 /* Resources */,
+				E68E39C6D961C6A214F1157F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,6 +288,8 @@
 				10A64B2621920270003228E5 /* LaunchScreen.storyboard in Resources */,
 				10A64B2321920270003228E5 /* Assets.xcassets in Resources */,
 				10A64B1E2192026E003228E5 /* Main.storyboard in Resources */,
+				F5DE1CE421B48150003C8940 /* Galery.xcassets in Resources */,
+				F5DE1CDE21B41E13003C8940 /* NoteCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,17 +309,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53D4B236F4D5E33225E7E099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RED NOTE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E68E39C6D961C6A214F1157F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RED NOTE/Pods-RED NOTE-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RED NOTE/Pods-RED NOTE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10A64B112192026E003228E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D6F064219DFFE200F0F6CC /* NoteRealm.swift in Sources */,
+				F575F60221AACC8300131656 /* RealmDataSource.swift in Sources */,
 				10A64B1B2192026E003228E5 /* MainViewController.swift in Sources */,
 				10A64B4C219208F5003228E5 /* OpenNoteViewController.swift in Sources */,
 				10A64B4A21920508003228E5 /* NewNoteViewController.swift in Sources */,
 				10A64B192192026E003228E5 /* AppDelegate.swift in Sources */,
 				10A64B4E21921BC8003228E5 /* ImageViewController.swift in Sources */,
 				10A64B212192026E003228E5 /* RED_NOTE.xcdatamodeld in Sources */,
+				F5D6F066219E06D900F0F6CC /* RealmDataManager.swift in Sources */,
+				F5DE1CE221B41E93003C8940 /* UICell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +537,7 @@
 		};
 		10A64B4121920270003228E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA5DAEB57288B0B30DB8A1D /* Pods-RED NOTE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +556,7 @@
 		};
 		10A64B4221920270003228E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E13BE5E51A166503AB36CE3 /* Pods-RED NOTE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
